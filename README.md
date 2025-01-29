@@ -14,6 +14,7 @@ Implement APIs for the following functionalities:
 3. **Assign projects** to existing users.
 4. **Assign tickets** to existing users.
 5. **Assign subtasks** to existing users.
+6. **List Tickets** to show list of all assigned ticket which need to .
 
 ### **Project Structure**
 The backend follows a **modular structure**:
