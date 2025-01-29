@@ -19,11 +19,11 @@ public class TicketDbContext(DbContextOptions<TicketDbContext> options) : DbCont
             .WithMany(u => u.Projects)
             .UsingEntity(j =>
             {
-                j.ToTable("ProjectUsers");
+                j.ToTable("ProjectsUsers");
                 j.HasData(
-                    new { ProjectId = 1, UserId = 2 },
-                    new { ProjectId = 1, UserId = 1 },
-                    new { ProjectId = 2, UserId = 3 }
+                    new { ProjectsId = 1, UsersId = 2 },
+                    new { ProjectsId = 1, UsersId = 1 },
+                    new { ProjectsId = 2, UsersId = 3 }
                 );
             });
         
