@@ -90,6 +90,7 @@ npm run start
 - **Create a seperate branch**.
 - **Raise a PR when done**.
 - **Send an email with the PR link**.
+- **Branch Name should be your firstName-frontend or firstName-backend. Example if your firstname is James then valid branch name will be James-Frontend**.
 
 ---
 
