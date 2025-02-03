@@ -1,0 +1,14 @@
+<h2>Project List</h2>
+<div *ngIf="projectsError()" class="error-message">
+  {{ projectsError() }}
+</div>
+<ul *ngIf="!projectsError()">
+  <li *ngFor="let project of projects()">
+    <strong>Project ID:</strong> {{ project.id }} - <strong>Name:</strong> {{ project.name }}
+    <ul>
+      <li *ngFor="let user of project.users">
+        <strong>Assigned User:</strong> {{ user.name }}
+      </li>
+    </ul>
+  </li>
+</ul>

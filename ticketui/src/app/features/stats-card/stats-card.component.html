@@ -1,0 +1,19 @@
+<div class="stats-card">
+  <h2>Quick Stats</h2>
+  <div *ngIf="projectsError()" class="error-message">
+    {{ projectsError() }}
+  </div>
+  <div *ngIf="!projectsError()">
+    <h3>Total Projects: {{ totalProjects() }}</h3>
+  </div>
+  <div *ngIf="ticketsError()" class="error-message">
+    {{ ticketsError() }}
+  </div>
+  <div *ngIf="!ticketsError()">
+    <h3>Total Tickets: {{ totalTickets() }}</h3>
+  </div>
+</div>
+
+  
+  
+  

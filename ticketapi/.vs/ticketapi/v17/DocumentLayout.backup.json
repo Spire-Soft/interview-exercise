@@ -1,0 +1,315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\tickettask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\tickettask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\assignticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\assignticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\assigntickettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\assigntickettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\modules\\healthmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:modules\\healthmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\modules\\projectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:modules\\projectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\modules\\ticketmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:modules\\ticketmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|c:\\users\\work\\desktop\\interview-exercise\\ticketapi\\models\\createtickettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\createtickettaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1359308170:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\user.cs",
+              "RelativeDocumentMoniker": "Models\\user.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\user.cs",
+              "RelativeToolTip": "Models\\user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:41:05.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2144397276:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1210539126:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1895889933:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\TicketDto.cs",
+              "RelativeDocumentMoniker": "Models\\TicketDto.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\TicketDto.cs",
+              "RelativeToolTip": "Models\\TicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:41.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateTicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\CreateTicketDto.cs",
+              "RelativeDocumentMoniker": "Models\\CreateTicketDto.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\CreateTicketDto.cs",
+              "RelativeToolTip": "Models\\CreateTicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:38.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssignTicketTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\AssignTicketTaskDto.cs",
+              "RelativeDocumentMoniker": "Models\\AssignTicketTaskDto.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\AssignTicketTaskDto.cs",
+              "RelativeToolTip": "Models\\AssignTicketTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:37.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssignTicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\AssignTicketDto.cs",
+              "RelativeDocumentMoniker": "Models\\AssignTicketDto.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\AssignTicketDto.cs",
+              "RelativeToolTip": "Models\\AssignTicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:35.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketTask.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\TicketTask.cs",
+              "RelativeDocumentMoniker": "Models\\TicketTask.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\TicketTask.cs",
+              "RelativeToolTip": "Models\\TicketTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:43.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\Ticket.cs",
+              "RelativeToolTip": "Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:40.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:40:52.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectDto.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\ProjectDto.cs",
+              "RelativeToolTip": "Models\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:40:53.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HealthModule.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Modules\\HealthModule.cs",
+              "RelativeDocumentMoniker": "Modules\\HealthModule.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Modules\\HealthModule.cs",
+              "RelativeToolTip": "Modules\\HealthModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:40:45.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Services\\ProjectService.cs",
+              "RelativeToolTip": "Services\\ProjectService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwB4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T21:17:19.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:184424558:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicketModule.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Modules\\TicketModule.cs",
+              "RelativeDocumentMoniker": "Modules\\TicketModule.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Modules\\TicketModule.cs",
+              "RelativeToolTip": "Modules\\TicketModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:47.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T20:46:02.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Services\\TicketService.cs",
+              "RelativeToolTip": "Services\\TicketService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAuwIQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:38:43.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectModule.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Modules\\ProjectModule.cs",
+              "RelativeDocumentMoniker": "Modules\\ProjectModule.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Modules\\ProjectModule.cs",
+              "RelativeToolTip": "Modules\\ProjectModule.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:51:51.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateTicketTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\CreateTicketTaskDto.cs",
+              "RelativeDocumentMoniker": "Models\\CreateTicketTaskDto.cs",
+              "ToolTip": "C:\\Users\\Work\\Desktop\\interview-exercise\\ticketapi\\Models\\CreateTicketTaskDto.cs",
+              "RelativeToolTip": "Models\\CreateTicketTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T23:50:39.585Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
