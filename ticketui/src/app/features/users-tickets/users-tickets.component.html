@@ -1,0 +1,44 @@
+<h2>Users and Assigned Tickets</h2>
+<div *ngIf="ticketsError()" class="error-message">
+  {{ ticketsError() }}
+</div>
+<table *ngIf="!ticketsError()">
+  <thead>
+    <tr>
+      <th>Ticket ID</th>
+      <th>Description</th>
+      <th>Project Name</th>
+      <th>User Name</th>
+      <th>Ticket Tasks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let ticket of tickets()">
+      <td>{{ ticket.id }}</td>
+      <td>{{ ticket.description }}</td>
+      <td>{{ ticket.projectName }}</td>
+      <td>{{ ticket.userName }}</td>
+      <td>
+        <div *ngIf="ticket.ticketTasks && ticket.ticketTasks.length > 0; else noTasks">
+          <table class="nested-table">
+            <thead>
+              <tr>
+                <th>Task ID</th>
+                <th>Task Description</th>
+                <th>Task User Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let task of ticket.ticketTasks">
+                <td>{{ task.id }}</td>
+                <td>{{ task.description }}</td>
+                <td>{{ task.userName }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <ng-template #noTasks>No tasks available for this ticket.</ng-template>
+      </td>
+    </tr>
+  </tbody>
+</table>

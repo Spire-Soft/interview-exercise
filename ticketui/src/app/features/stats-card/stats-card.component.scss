@@ -1,0 +1,27 @@
+.stats-card {
+  border: 3px solid #000;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  height: 100%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+  
