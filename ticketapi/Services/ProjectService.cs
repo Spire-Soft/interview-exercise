@@ -1,14 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Ticketapi.Data;
-using Ticketapi.Models;
+using Ticketapi.DTO;
 
 namespace Ticketapi.Services;
 
 public class ProjectService
 {
-    public async Task<List<Project>> GetProjects(TicketDbContext db)
+    public async Task<List<ProjectDto>> GetProjects(TicketDbContext db)
     {
-        return await db.Projects.ToListAsync();
+        var projects = await db.Projects.Include(p => p.Users).ToListAsync();
+        return [.. projects.Select(p => p.MapToProjectDto())];
+        
     }
 
     public async Task AssignProject(TicketDbContext db, int userId, int projectId)
