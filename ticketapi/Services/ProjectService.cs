@@ -10,4 +10,19 @@ public class ProjectService
     {
         return await db.Projects.ToListAsync();
     }
+
+    public async Task AssignProject(TicketDbContext db, int userId, int projectId)
+    {
+        var project = await db.Projects.FindAsync(projectId)
+            ?? throw new ArgumentException("Project does not exist", nameof(projectId));
+        var user = await db.Users.FindAsync(userId)
+            ?? throw new ArgumentException("User does not exist", nameof(userId));
+
+        var exists = await db.Projects.Select(p => p.Users.Contains(user)).AnyAsync();
+        if (!exists)
+        {
+            project.Users.Add(user);
+            await db.SaveChangesAsync();
+        }
+    }
 }
