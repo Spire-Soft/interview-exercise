@@ -26,7 +26,17 @@ public class TicketDbContext(DbContextOptions<TicketDbContext> options) : DbCont
                     new { ProjectsId = 2, UsersId = 3 }
                 );
             });
-        
+
+        modelBuilder.Entity<Ticket>()
+            .HasOne(t => t.Project)
+            .WithMany(p => p.Tickets)
+            .HasForeignKey(t => t.ProjectId);
+
+        modelBuilder.Entity<Ticket>()
+            .HasOne(t => t.User)
+            .WithMany(u => u.Tickets)
+            .HasForeignKey(t => t.UserId);
+
         modelBuilder.Entity<Project>().HasData(Seeder.SeedProjects());
         modelBuilder.Entity<User>().HasData(Seeder.SeedUsers());
         modelBuilder.Entity<Ticket>().HasData(Seeder.SeedTickets());

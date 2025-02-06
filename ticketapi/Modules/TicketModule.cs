@@ -7,6 +7,12 @@ public class TicketModule : IModule
 {
     public void MapEndpoints(IEndpointRouteBuilder endpoints)
     {
+        endpoints.MapGet("v1/tickets",
+            async (TicketService service, TicketDbContext db) =>
+            {
+                return Results.Json(await service.GetTickets(db));
+            });
+
         endpoints.MapGet("v1/tickets/count",
             async (TicketService service, TicketDbContext db) =>
             {

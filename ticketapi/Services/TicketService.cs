@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Ticketapi.Data;
+using Ticketapi.DTO;
 using Ticketapi.Models;
 
 namespace Ticketapi.Services;
@@ -7,8 +8,15 @@ namespace Ticketapi.Services;
 public class TicketService
 {
 
-    public async Task<int> GetTotalTicketCount(TicketDbContext db){
+    public async Task<int> GetTotalTicketCount(TicketDbContext db)
+    {
         return await db.Tickets.CountAsync();
+    }
+
+    public async Task<List<TicketDto>> GetTickets(TicketDbContext db)
+    {
+        var tickets = await db.Tickets.Include(t => t.User).Include(t => t.Project).ToListAsync();
+        return [.. tickets.Select(t => t.MapToTicketDto())];
     }
 
     public async Task<List<Ticket>> GetAssignedTickets(TicketDbContext db, int userId)
