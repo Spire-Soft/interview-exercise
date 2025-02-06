@@ -7,6 +7,10 @@ namespace Ticketapi.Services;
 public class TicketService
 {
 
+    public async Task<int> GetTotalTicketCount(TicketDbContext db){
+        return await db.Tickets.CountAsync();
+    }
+
     public async Task<List<Ticket>> GetAssignedTickets(TicketDbContext db, int userId)
     {
         // With bad data, our query will yield an empty list instead of an exception
