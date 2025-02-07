@@ -4,6 +4,15 @@ using Ticketapi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Allow CORS for angular on localhost
+var AllowSpecificOrigins = "_allowSpecificOrigins";
+builder.Services.AddCors(options =>{
+    options.AddPolicy(name: AllowSpecificOrigins,
+    policy => {
+        policy.WithOrigins("http://localhost:4200");
+    });
+});
+
 // Connect SQLite database
 builder.Services.AddDbContext<TicketDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -52,6 +61,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(AllowSpecificOrigins);
 
 app.Run();
 
