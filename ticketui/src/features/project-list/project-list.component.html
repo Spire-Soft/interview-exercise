@@ -1,0 +1,8 @@
+<mat-list #projects>
+@for (project of list(); track project.name) {
+    <mat-list-item>
+        <span matListItemTitle>{{ project.name}}</span>
+        <span matListItemLine>{{ displayUserNames(project.users) }}</span>
+    </mat-list-item>
+}
+</mat-list>

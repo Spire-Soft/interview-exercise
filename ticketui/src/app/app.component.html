@@ -169,11 +169,15 @@
 </style>
 
 <main class="main">
+  <h1>Interview Exercise</h1>
   <div class="content">
     <div class="left-side">
-      <h1>Hello, {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <app-project-totals [projectCount]="projectCount()" [ticketCount]="ticketCount()"></app-project-totals>
+      <app-project-list [list]="projectList()"></app-project-list>
     </div>
+    <div class="right-side">
+      <app-ticket-table></app-ticket-table>
+    </div> 
   </div>
 </main>
 
