@@ -6,10 +6,11 @@ import { ProjectService } from '../services/project.service';
 import { Project } from '../interfaces/project';
 import { TicketService } from '../services/ticket.service';
 import { TicketTableComponent } from '../features/ticket-table/ticket-table.component';
+import { MatToolbarModule } from '@angular/material/toolbar'
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ProjectListComponent, ProjectTotalsComponent, TicketTableComponent],
+  imports: [RouterOutlet, ProjectListComponent, ProjectTotalsComponent, TicketTableComponent, MatToolbarModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
